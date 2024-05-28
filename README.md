@@ -22,8 +22,8 @@ To run this project locally, follow these steps:
 
 ## Navigate the project directory
     cd jewelleryForm
- open index.html file 
- Right-click on index.html and select Open with Live Server
+1. open index.html file 
+2. Right-click on index.html and select Open with Live Server
 
 ## Usage
  Once the form is loaded in your web browser, you can:
