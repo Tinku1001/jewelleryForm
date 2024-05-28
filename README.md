@@ -2,12 +2,14 @@
 
 This project is a simple form for customizing jewellery. It is built using HTML, CSS, and JavaScript.
 
+## Overview
+
+This project provides a form that allows users to customize their jewelry preferences based on various criteria such as occasion, purchase type, gender, age group, jewelry type, and budget. Users can also upload an image to match with an outfit.
+
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -23,6 +25,7 @@ To run this project locally, follow these steps:
     cd jewelleryForm
 ## then open index.html file 
 ## Right-click on index.html and select Open with Live Server
+2. **
 
 ## Usage
  Once the form is loaded in your web browser, you can:
