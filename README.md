@@ -20,12 +20,10 @@ To run this project locally, follow these steps:
    ```sh
    git clone https://github.com/Tinku1001/jewelleryForm.git
 
-
 ## Navigate the project directory
     cd jewelleryForm
 ## then open index.html file 
 ## Right-click on index.html and select Open with Live Server
-2. **
 
 ## Usage
  Once the form is loaded in your web browser, you can:
