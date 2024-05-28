@@ -1,4 +1,4 @@
-# Jewelry Customization Form
+# Jewellery Customization Form
 
 This project is a simple form for customizing jewellery. It is built using HTML, CSS, and JavaScript.
 <br>
@@ -7,7 +7,7 @@ This project is a simple form for customizing jewellery. It is built using HTML,
 
 ## Overview
 
-This project provides a form that allows users to customize their jewelry preferences based on various criteria such as occasion, purchase type, gender, age group, jewelry type, and budget. Users can also upload an image to match with an outfit.
+This project provides a form that allows users to customize their jewellery preferences based on various criteria such as occasion, purchase type, gender, age group, jewelry type, and budget. Users can also upload an image to match with an outfit.
 
 ## Table of Contents
 
