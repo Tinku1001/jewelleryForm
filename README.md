@@ -1,7 +1,8 @@
 # Jewelry Customization Form
 
 This project is a simple form for customizing jewellery. It is built using HTML, CSS, and JavaScript.
-- [jewellery form link](https://jewellery-form.vercel.app/)
+<a href="http://example.com" target="_blank">Visit jewellery form </a>
+
 
 ## Overview
 
