@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(jewel3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    background-color: rgba(206, 235, 241, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(73, 43, 43, 0.1);
+    max-width: 500px;
+    width: 100%;
+    transition: box-shadow 0.3s ease, transform 0.4s ease;
+  }
+  
+  .form-container:hover {
+    box-shadow: 0 0 40px rgba(116, 82, 82, 0.3);
+    transform: scale(1.02);
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px 5px rgb(94, 78, 78);
+  }
+  
+  .form-label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .radio-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-item input {
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  select,
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #514747;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .custom-file-upload {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .custom-file-upload input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-upload button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .custom-file-upload button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #outfitPreview {
+    display: none;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .invalid {
+    border-color: red;
+  }
+  
+  .gender {
+    margin-top: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  #occasion {
+    margin-top: 2px;
+  }
+  
+  #gift {
+    margin-top: 2px;
+  }
+  
+  #gender {
+    margin-top: 3px;
+  }
+  
+  #jewelryType {
+    margin-top: 3px;
+  }
+  
+  #budget {
+    margin-top: 3px;
+  }
+  .radio-item{
+    margin-top: 7px;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Laptops and large screens */
+  @media (max-width: 1200px) {
+    .form-container {
+      max-width: 700px;
+      padding: 15px;
+    }
+  }
+  
+  /* Tablets and small laptops */
+  @media (max-width: 768px) {
+    .form-container {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .radio-group {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .radio-item {
+      margin-bottom: 10px;
+    }
+  
+    .heading {
+      font-size: 1.75em;
+    }
+  }
+  
+  /* Mobile phones */
+  @media (max-width: 550px) {
+    .form-container {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .radio-group {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .radio-item {
+      margin-bottom: 5px;
+    }
+  
+    .heading {
+      font-size: 1.5em;
+    }
+  }
+  
+  /* Very small mobile phones */
+  @media (max-width: 475px) {
+    .form-container {
+      max-width: 95%;
+      padding: 10px;
+    }
+  
+    .heading {
+      font-size: 1.5em;
+    }
+  
+    button,
+    .custom-file-upload button,
+    input[type="text"],
+    select,
+    input[type="file"] {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
